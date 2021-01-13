@@ -24,11 +24,30 @@ namespace WebApplication1.Models
             Employee2.dept = "IT";
             Employee2.email = "supriyagmail.com";
             _Employlist.Add(Employee2);
+            Employee Employee3 = new Employee();
+            Employee3.id = 3;
+            Employee3.name = "banke";
+            Employee3.dept = "IT";
+            Employee3.email = "bankegmail.com";
+            _Employlist.Add(Employee3);
+
+
         }
 
         public Employee getEmployee(int id)
         {
-           return _Employlist.FirstOrDefault(e => e.id == id);
+            Employee emptemp = null;
+
+            foreach (Employee emp in _Employlist)
+            {
+                if (emp.id == id)
+                {
+                    emptemp = emp;
+                    break;                        
+                 }
+            }
+            //return _Employlist.FirstOrDefault(emp => emp.id == id);
+            return emptemp;
         }
     }
 }

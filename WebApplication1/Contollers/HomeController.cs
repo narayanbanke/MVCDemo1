@@ -20,7 +20,7 @@ namespace WebApplication1.Contollers
         {
             //return _employeeRepos.getEmployee(1).name;
 
-            return View(_employeeRepos.getEmployee(1));
+            return View(_employeeRepos.getEmployee(2));
         }
         //public JsonResult Details() 
         //{
@@ -31,7 +31,7 @@ namespace WebApplication1.Contollers
         //}
         public ViewResult Details()
         {
-            Employee model = _employeeRepos.getEmployee(1);
+            Employee model = _employeeRepos.getEmployee(3);
             return View(model);
 
 
