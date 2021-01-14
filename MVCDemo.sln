@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyDemo", "EmptyDemo\Empt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{F07F2ED0-BB9B-4B69-AEF1-34A13E55F731}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper", "Dapper\Dapper.csproj", "{552611FC-80AD-4161-B44D-E0D0F96BB106}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F07F2ED0-BB9B-4B69-AEF1-34A13E55F731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F07F2ED0-BB9B-4B69-AEF1-34A13E55F731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F07F2ED0-BB9B-4B69-AEF1-34A13E55F731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552611FC-80AD-4161-B44D-E0D0F96BB106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552611FC-80AD-4161-B44D-E0D0F96BB106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552611FC-80AD-4161-B44D-E0D0F96BB106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552611FC-80AD-4161-B44D-E0D0F96BB106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
