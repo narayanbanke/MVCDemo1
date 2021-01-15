@@ -12,9 +12,9 @@ namespace EntityFrameworkCore.Controllers
     public class HomeController : Controller
     {
 
-        private readonly EmployeeContext _dbContext;
+        private readonly ApplicationDbContext _dbContext;
 
-        public HomeController(EmployeeContext dbContext)
+        public HomeController(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }

@@ -26,9 +26,9 @@ namespace EntityFrameworkCore
 
             //Fetching Connection string from APPSETTINGS.JSON  
             var ConnectionString = Configuration.GetConnectionString("SQLConnection");
-
+            
             //Entity Framework  
-            services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(ConnectionString));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(ConnectionString));
         }
 
 
