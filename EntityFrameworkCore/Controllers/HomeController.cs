@@ -19,20 +19,21 @@ namespace EntityFrameworkCore.Controllers
             _dbContext = dbContext;
         }
 
-        public IActionResult Index()
+        public ViewResult Index()
         {
-            var _emplst = _dbContext.tblEmployees.
-                            Join(_dbContext.tblSkills, e => e.SkillID, s => s.SkillID,
-                            (e, s) => new EmployeeViewModel
+            
+
+            var _emplst = _dbContext.tblEmployees.Select(e =>
+                            new EmployeeViewModel
                             {
                                 EmployeeID = e.EmployeeID,
                                 EmployeeName = e.EmployeeName,
                                 PhoneNumber = e.PhoneNumber,
-                                Skill = s.Title,
                                 YearsExperience = e.YearsExperience
                             }).ToList();
             IList<EmployeeViewModel> emplst = _emplst;
-            return View(emplst);
+          return View(emplst);
+
         }
     }
 }

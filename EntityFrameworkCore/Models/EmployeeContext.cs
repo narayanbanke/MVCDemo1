@@ -11,7 +11,6 @@ namespace EntityFrameworkCore.Models
         {
 
         }
-        public DbSet<tblSkill> tblSkills { get; set; }
         public DbSet<tblEmployees> tblEmployees { get; set; }
     }
 }

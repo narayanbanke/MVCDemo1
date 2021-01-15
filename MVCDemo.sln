@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware", "Middleware\Mi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyDemo", "EmptyDemo\EmptyDemo.csproj", "{C3F36A9F-FF8D-4FB0-B15A-4B8541EEA951}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{F07F2ED0-BB9B-4B69-AEF1-34A13E55F731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore", "EntityFrameworkCore\EntityFrameworkCore.csproj", "{F07F2ED0-BB9B-4B69-AEF1-34A13E55F731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper", "Dapper\Dapper.csproj", "{552611FC-80AD-4161-B44D-E0D0F96BB106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper", "Dapper\Dapper.csproj", "{552611FC-80AD-4161-B44D-E0D0F96BB106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
