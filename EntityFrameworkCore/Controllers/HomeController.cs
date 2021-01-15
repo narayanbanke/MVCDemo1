@@ -21,18 +21,28 @@ namespace EntityFrameworkCore.Controllers
 
         public ViewResult Index()
         {
-            
-
             var _emplst = _dbContext.tblEmployees.Select(e =>
-                            new EmployeeViewModel
+                            new tblEmployees
                             {
                                 EmployeeID = e.EmployeeID,
                                 EmployeeName = e.EmployeeName,
                                 PhoneNumber = e.PhoneNumber,
                                 YearsExperience = e.YearsExperience
                             }).ToList();
-            IList<EmployeeViewModel> emplst = _emplst;
-          return View(emplst);
+
+            //var _emplst = _dbContext.tblEmployees.Select(e =>
+            //                new EmployeeViewModel
+            //                {
+            //                    EmployeeID = e.EmployeeID,
+            //                    EmployeeName = e.EmployeeName,
+            //                    PhoneNumber = e.PhoneNumber,
+            //                    YearsExperience = e.YearsExperience
+            //                }).ToList();
+            //IList<EmployeeViewModel> emplst = _emplst;
+        
+            IList<tblEmployees > emplst = _emplst;
+
+            return View(emplst);
 
         }
     }

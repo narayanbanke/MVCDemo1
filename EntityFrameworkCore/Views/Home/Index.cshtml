@@ -1,4 +1,4 @@
-﻿@model IEnumerable<EntityFrameworkCore.Models.EmployeeViewModel>
+﻿@model IEnumerable<EntityFrameworkCore.Models.tblEmployees>
 
 @{
     ViewData["Title"] = "Index";
@@ -18,9 +18,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.PhoneNumber)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Skill)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.YearsExperience)
             </th>
@@ -37,9 +37,9 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.PhoneNumber)
                 </td>
-                <td>
+                @*<td>
                     @Html.DisplayFor(modelItem => item.Skill)
-                </td>
+                </td>*@
                 <td>
                     @Html.DisplayFor(modelItem => item.YearsExperience)
                 </td>
