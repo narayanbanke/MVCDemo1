@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5C88FDF6-5716-452E-95BD-0E8DD762CC9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithModelViewController", "WebApplication1\WithModelViewController.csproj", "{5C88FDF6-5716-452E-95BD-0E8DD762CC9E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{E45A5204-6A72-4F61-8161-FB6C79F31FB2}"
 EndProject
