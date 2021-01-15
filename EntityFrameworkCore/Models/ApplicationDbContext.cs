@@ -12,5 +12,7 @@ namespace EntityFrameworkCore.Models
 
         }
         public DbSet<tblEmployees> tblEmployees { get; set; }
+        //public DbSet<tblEmployees> tblskil { get; set; }
+        //public DbSet<tblEmployees> tblproduct { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace EntityFrameworkCore.Models
             [Key]
             public int EmployeeID { get; set; }
 
-            [Display(Name = "Employee Name")]
+            [Display(Name = "Employee-Name")]
             public string EmployeeName { get; set; }
 
             [Display(Name = "Contact Number")]

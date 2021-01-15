@@ -30,15 +30,7 @@ namespace EntityFrameworkCore.Controllers
                                 YearsExperience = e.YearsExperience
                             }).ToList();
 
-            //var _emplst = _dbContext.tblEmployees.Select(e =>
-            //                new EmployeeViewModel
-            //                {
-            //                    EmployeeID = e.EmployeeID,
-            //                    EmployeeName = e.EmployeeName,
-            //                    PhoneNumber = e.PhoneNumber,
-            //                    YearsExperience = e.YearsExperience
-            //                }).ToList();
-            //IList<EmployeeViewModel> emplst = _emplst;
+            
         
             IList<tblEmployees > emplst = _emplst;
 
